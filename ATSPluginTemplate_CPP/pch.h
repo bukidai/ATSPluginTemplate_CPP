@@ -8,6 +8,9 @@
 #define PCH_H
 
 // プリコンパイルするヘッダーをここに追加します
-#include "framework.h"
+#define WIN32_LEAN_AND_MEAN             // Windows ヘッダーからほとんど使用されていない部分を除外する
+// Windows ヘッダー ファイル
+#include <windows.h>
+#include "ats_define.hpp"
 
 #endif //PCH_H
