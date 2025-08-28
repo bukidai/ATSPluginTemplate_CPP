@@ -1,0 +1,1 @@
+# ATSPluginTemplate_CPP
